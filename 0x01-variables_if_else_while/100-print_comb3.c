@@ -1,13 +1,21 @@
 #include <stdio.h>
 
 /**
- * main - main function
+ * main - Entry point
  *
- * Return: 0 on success
+ * Description: Prints all possible different combinations
+ *              of two digits with specified format.
+ *
+ * Return: Always 0 (Success)
  */
-int main() {
-    for (int i = 0; i < 10; i++) {
-        for (int j = i + 1; j < 10; j++) {
+int main(void)
+{
+    int i, j;
+
+    for (i = 0; i < 10; i++)
+    {
+        for (j = i + 1; j < 10; j++)
+        {
             putchar(i + '0');
             putchar(',');
             putchar(' ');
@@ -15,6 +23,7 @@ int main() {
             putchar(' ');
         }
     }
+
     putchar('\n');
-    return 0;
+    return (0);
 }
