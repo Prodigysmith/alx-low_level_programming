@@ -19,15 +19,12 @@ int main(void)
             for (k = j + 1; k < 10; k++)
             {
                 putchar(i + '0');
-                putchar(',');
-                putchar(' ');
                 putchar(j + '0');
-                putchar(',');
-                putchar(' ');
                 putchar(k + '0');
 
                 if (!(i == 0 && j == 1 && k == 2))
                 {
+                    putchar(',');
                     putchar(' ');
                 }
             }
