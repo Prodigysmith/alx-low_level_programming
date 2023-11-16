@@ -24,3 +24,11 @@ int print_sign(int n)
 		return (-1);
 	}
 }
+
+int main() {
+    int number = -5;
+    int result = print_sign(number);
+    putchar('\n');  // Print a newline for better output formatting
+    printf("Result: %d\n", result);
+    return 0;
+}
