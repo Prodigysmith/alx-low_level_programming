@@ -17,6 +17,5 @@ num++;
 h = h->next;
 }
 
-istint.c
-	 eturn (num);
+return (num);
 }
